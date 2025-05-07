@@ -6,7 +6,9 @@ public class SalaDeCine {
     private int filas;
     private int columnas;
     
-	public SalaDeCine() {
-	
-	}
+    public SalaDeCine(int filas, int columnas) {
+        this.filas = filas;
+        this.columnas = columnas;
+        
+    }
 }
