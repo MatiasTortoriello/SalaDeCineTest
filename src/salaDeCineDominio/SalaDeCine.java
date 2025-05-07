@@ -9,6 +9,6 @@ public class SalaDeCine {
     public SalaDeCine(int filas, int columnas) {
         this.filas = filas;
         this.columnas = columnas;
-        
+        this.asientos = new int[filas][columnas]; 
     }
 }
